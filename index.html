@@ -5,32 +5,111 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="css/animation.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <title>Portfolio</title>
 </head>
 
 <body>
-  <div class="background">
-    <div class="container">
-      <ul class="contact">Contact</ul>
-    </div>
-    <div class="header">
-      <h1 class="name">Arnaldo Gonzalez</h1>
-      <h3 class="name">Web Developer</h3>
+  <div id="wrapper1" class="container-fluid">
+    <nav class="navigation">
+      <div class="left">
+        <div class="logo">ARNALDO GONZALEZ</div>
+        <div class="sublogo">WEB DEVELOPER</div>
+      </div>
+
+      <div class="right">
+        <ul>
+          <li>
+            <a href="#aboutme">ABOUT ME</a>
+          </li>
+          <li>
+            <a href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li>
+            <a href="#footer">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="header" class="container-fluid">
+      <div id="welcome">
+        <h1>WELCOME</h1>
+        <a href="#aboutme" class="btn btn-circle">
+          <i class="fa fa-angle-double-down"></i>
+        </a>
+      </div>
     </div>
   </div>
 
-  <div class="skills">
-    <h3 class="skill-text">Skills</h3>
+  <div id="aboutme" class="container-fluid">
+    <div class="row" style="padding-top: 50px">
+      <div class="col-md-8">
+        <h4>ABOUT ME</h4>
+        <br>
+        <p>Hi, I am Arnaldo Gonzalez. I am a dreamer whose dream is to build awesome things in the future and to contribute
+          something useful to the world.</p>
+        <br>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="./Images/IMG_2287.JPG" class="img-round"></img>
+      </div>
+    </div>
   </div>
 
-  <div class="images_container">
-    <img src="images\html_image.jpg">
-    <img src="images\css_image.png">
-    <img src="images\javascript_image.png">
-    <img src="images\php_image.jpg">
+  <div id="portfolio" class="container-fluid">
+    <h4>PORTFOLIO</h4>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-6" style="margin-bottom: 10px">
+        <img src="./Images/flappy_bird.png" class="img-responsive">
+      </div>
+      <div class="col-md-6" style="margin-bottom: 10px">
+        <img src="./Images/asteroids.jpg" class="img-responsive">
+      </div>
+    </div>
+    <BR>
+    <div class="row">
+      <div class="col-md-6" style="margin-bottom: 10px">
+        <img src="./Images/firechat.jpg" class="img-responsive">
+      </div>
+      <div class="col-md-6" style="margin-bottom: 10px">
+        <img src="./Images/wikipedia.jpg" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <h2 id="Contact" class="w3-xxlarge w3-text-grey w3-wide">CONTACT</h2>
+  <div class="w3-content w3-container w3-padding-10">
+    <div class="w3-col m8 w3-container w3-section">
+      <i class="fa fa-phone w3-hover-text-black" style="width:30px"></i> Phone: 786 717 8566
+      <br>
+      <i class="fa fa-envelope w3-hover-text-black" style="width:30px"> </i> Email: arnaldolgonzalez96@gmail.com
+      <br>
+    </div>
+    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+      <div class="w3-half">
+        <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Name">
+      </div>
+      <div class="w3-half">
+        <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Email">
+      </div>
+    </div>
+    <input class="w3-input w3-border w3-hover-light-grey" type="text" placeholder="Comment">
+    <a href="mailto:arnaldolgonzalez96@gmail.com" class="w3-btn w3-section w3-right">SEND</a>
+  </div>
+
+  <div id="footer" class="container-fluid">
+    <p>COPYRIGHT © 2018 ARNALDO GONZALEZ</p>
   </div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=
+  " crossorigin="anonymous"></script>
+<script src="./JS/main.js"></script>
 
 </html>
