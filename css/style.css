@@ -1,6 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
-@import url(https://fonts.googleapis.com/css?family=Exo);
 
 body {
   font-family: Roboto Slab;
@@ -130,13 +129,7 @@ body {
   text-align: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-{
+h1,h2,h3,h4,h5,h6,{
   font-family: Roboto Slab;
   margin-bottom: 14px
 }
